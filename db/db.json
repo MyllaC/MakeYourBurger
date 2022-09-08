@@ -89,16 +89,7 @@
       "status": "Solicitado",
       "id": 1
     },
-    {
-      "name": null,
-      "meat": "Maminha",
-      "bread": "",
-      "additionals": [
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 2
-    },
+    
     {
       "name": "teste",
       "meat": "Alcatra",
