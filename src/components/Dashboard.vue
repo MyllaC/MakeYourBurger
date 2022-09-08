@@ -70,9 +70,12 @@ export default {
 
       this.burgers = data;
 
-      //console.log(data);
+      if (data.length <= 0) {
+        this.burgers = null;
+      }
 
       // resgatar os status
+      console.log(data);
       this.getStatus();
     },
     async getStatus() {
