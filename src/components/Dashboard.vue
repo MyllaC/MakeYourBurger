@@ -75,7 +75,7 @@ export default {
       }
 
       // resgatar os status
-      console.log(data);
+      // console.log(data);
       this.getStatus();
     },
     async getStatus() {
@@ -119,7 +119,7 @@ export default {
       // clear message
       setTimeout(() => (this.msg = ""), 3000);
 
-      console.log(res);
+      // console.log(res);
     },
   },
   mounted() {
@@ -187,5 +187,11 @@ select {
 .delete-btn:hover {
   background-color: transparent;
   color: #222;
+}
+
+h2 {
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
 }
 </style>
