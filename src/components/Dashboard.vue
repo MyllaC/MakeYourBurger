@@ -21,7 +21,7 @@
             <li>{{ additional }}</li>
           </ul>
         </div>
-        <div>
+        <div class="additional-table-row">
           <select
             name="status"
             class="status"
@@ -66,9 +66,17 @@ export default {
 
       this.burgers = data;
 
-      console.log(data);
+      //console.log(data);
 
       // resgatar os status
+      this.getStatus();
+    },
+    async getStatus() {
+      const req = await fetch("http://localhost:3000/status");
+
+      const data = await req.json();
+
+      this.status = data;
     },
   },
   mounted() {
@@ -79,7 +87,7 @@ export default {
 
 <style scoped>
 #burger-table {
-  max-width: 1200px;
+  max-width: 90vw;
   margin: 0 auto;
 }
 
@@ -104,12 +112,16 @@ export default {
 
 #burger-table-heading div,
 .burger-table-row div {
-  width: 19%;
+  width: 17%;
 }
 
 #burger-table-heading .order-id,
 .burger-table-row .order-number {
   width: 5%;
+}
+
+.additional-table-row {
+  display: flex;
 }
 
 select {
