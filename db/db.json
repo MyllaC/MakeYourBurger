@@ -79,24 +79,15 @@
   ],
   "burgers": [
     {
-      "name": "camila",
+      "name": "Camila",
       "meat": "Maminha",
       "bread": "3 Queijos",
       "additionals": [
-        "Salame",
-        "Cebola roxa"
+        "Bacon",
+        "Salame"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 1
-    },
-    
-    {
-      "name": "teste",
-      "meat": "Alcatra",
-      "bread": "Italiano Branco",
-      "additionals": [],
-      "status": "Solicitado",
-      "id": 3
     }
   ]
 }
