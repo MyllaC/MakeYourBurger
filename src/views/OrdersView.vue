@@ -1,5 +1,14 @@
 <template>
   <div class="main-container">
-    <h1>This is an product orders page</h1>
+    <h1>Manage orders</h1>
+    <Dashboard />
   </div>
 </template>
+
+<script>
+import Dashboard from "@/components/Dashboard.vue";
+export default {
+  name: "Orders",
+  components: { Dashboard },
+};
+</script>
