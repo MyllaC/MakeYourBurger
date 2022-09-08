@@ -77,17 +77,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "name": "Camila",
-      "meat": "Maminha",
-      "bread": "3 Queijos",
-      "additionals": [
-        "Bacon",
-        "Salame"
-      ],
-      "status": "Finalizado",
-      "id": 1
-    }
-  ]
+  "burgers": []
 }
